@@ -1,0 +1,19 @@
+body {
+ height: 100dvh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.box {
+ font-size: 50px;
+ padding: 10px 15px;
+ background-color: blue;
+ color: white;
+ border-radius: 5px;
+ border-style: none;
+ box-shadow: 1px 1px 5px black;
+}
+.box:hover {
+ background-color: rgb(30,129,176);
+}
